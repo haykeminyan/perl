@@ -1,0 +1,9 @@
+use strict;
+use warnings;
+
+sub sqrt
+{
+    print sqrt ($_[0]**2+$_[1]**2), "\n";
+}
+
+&sqrt(3,4)
