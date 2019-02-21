@@ -1,0 +1,15 @@
+use strict;
+use warnings;
+
+sub hello
+{
+    unless(@_)
+    {
+        print "hello world!\n";
+    }
+    else
+    {
+        print "hello, $_[0]!\n";
+    }
+}
+&hello("hayk");
